@@ -8,6 +8,10 @@
   .container {
     max-width: 960px;
   }
+
+  .tel {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
