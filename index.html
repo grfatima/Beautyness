@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beautyness</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/responsive.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logoAndTel">
+            <div class="logo">
+              <a href="./index.html"><img src="./images/Logo.svg" /></a>
+            </div>
+
+            <div class="tel">
+              <img src="./images/tel.svg" />
+              <a>Call Us - (+22) 123 456 7890</a>
+            </div>
+          </div>
+
+          <div class="linksSocialButton">
+            <div class="links">
+              <a href="#">Home</a>
+              <a href="#">Pages</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+            </div>
+
+            <div class="socialMedia">
+              <a href="#"><img src="./images/facebook.svg" /></a>
+              <a href="#"><img src="./images/twitter.svg" /></a>
+              <a href="#"><img src="./images/linkedin.svg" /></a>
+            </div>
+
+            <div class="button">
+              <img src="./images/Icon1.svg" />
+              <a href="#">RESERVATION</a>
+            </div>
+
+            <div class="bars" id="bars">
+              <img src="./images/bars.svg" alt="bars" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <script>
+      document.getElementById("bars").onclick = function () {
+        document.getElementById("mobileNav").classList.toggle("showMobileNav");
+      };
+    </script>
+  </body>
 </html>
