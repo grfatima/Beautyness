@@ -5,3 +5,84 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: Manrope-Regular;
+  src: url(../fonts/Manrope/Manrope-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.container {
+  margin: auto;
+  max-width: 1320px;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-family: Manrope-Regular;
+  justify-content: space-between;
+}
+
+.logoAndTel {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 20vh;
+}
+
+.linksSocialButton {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.tel {
+  gap: 10px;
+  display: flex;
+  font-size: 13px;
+  font-weight: 400;
+  align-items: center;
+}
+
+.tel img {
+  width: 2vh;
+}
+
+.links {
+  gap: 20px;
+  display: flex;
+}
+.links a {
+  color: black;
+  font-size: 13px;
+}
+
+.socialMedia {
+  gap: 13px;
+  display: flex;
+}
+
+.button {
+  gap: 10px;
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  background-color: #7a9ca5;
+}
+
+.button a {
+  color: white;
+  font-size: 12px;
+}
+
+.button img {
+  width: 2vh;
+}
