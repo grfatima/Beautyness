@@ -8,21 +8,29 @@
   .container {
     max-width: 960px;
   }
-
-  .tel {
-    display: none;
-  }
 }
 
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
   }
+
+  .tel {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .linksSocialButton {
+    display: none;
   }
 }
 
