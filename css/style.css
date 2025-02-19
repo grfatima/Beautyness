@@ -15,6 +15,10 @@
   src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
+body {
+  font-family: Manrope-Regular;
+}
+
 .container {
   margin: auto;
   max-width: 1320px;
@@ -65,7 +69,7 @@ nav {
   display: flex;
 }
 .links a {
-  color: black;
+  color: #555555;
   font-size: 12px;
 }
 
@@ -91,12 +95,65 @@ nav {
   width: 2vh;
 }
 
+.hero {
+  background: url(../images/Background.svg) no-repeat center;
+  height: calc(100vh - 70px);
+  background-size: cover;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-content {
+  top: 29%;
+  width: 55vh;
+  position: absolute;
+
+  h6 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #5c8692;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-family: PlayfairDisplay-Regular;
+  }
+
+  p {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #555555;
+    line-height: 30px;
+  }
+
+  a {
+    color: white;
+    font-size: 10px;
+    padding: 15px 20px;
+    letter-spacing: 2px;
+    background: #5c8692;
+    text-transform: uppercase;
+  }
+}
+
 .bars {
   width: 30px;
   height: 30px;
   display: none;
+  cursor: pointer;
 }
 
 .bars img {
   width: 100%;
+}
+
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
