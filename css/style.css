@@ -154,6 +154,39 @@ nav {
 }
 
 .service-container {
+  gap: 100px;
+  width: 145vh;
   display: grid;
+  margin: 10% auto;
   grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 31px;
+    font-family: PlayfairDisplay-Regular;
+  }
+
+  p {
+    margin: 25px 0;
+    font-size: 15px;
+    font-weight: 200;
+    color: #555555;
+    line-height: 25px;
+    letter-spacing: 2%;
+  }
+
+  a {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    letter-spacing: 12%;
+    border: 2px solid #5c8692;
+  }
 }
