@@ -25,6 +25,14 @@
     padding: 0 20px;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .section-first {
+    width: 55vh;
+  }
+
+  .section-second {
+    width: 60vh;
+  }
 }
 
 @media (max-width: 768px) {
@@ -45,11 +53,39 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .aboutUs {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .section-first {
+    margin: auto;
+    width: 75vh;
+  }
+
+  .section-second {
+    margin: auto;
+    width: 90vh;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
     padding: 0 20px;
+  }
+
+
+  .section-first {
+    margin: auto;
+    width: 60vh;
+    padding: 30px;
+  }
+
+  .section-second {
+    margin: auto;
+    width: 60vh;
+    padding: 30px;
   }
 }
